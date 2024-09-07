@@ -1,0 +1,48 @@
+                                            git and github
+                                            ================
+
+    github: its a cloud based platform to share codes between the developers.
+
+            features:-  store data.
+                        code share.
+                        host minor projects.
+                        version control.
+
+    git: its a tool in system to do operations in github.
+         
+    operations on github :- push - to add code to github
+                            pull - to get code
+                            clone - to get code 
+
+    storage 
+    -----------
+    git storage - local repository
+    github storage - remote repository
+
+        push - to upload code from local repo to remote repo
+        clone - downloading entire code from remode repo to local repo
+        pull - downloading updated code from remote repo to local repo
+
+    push
+    -----
+    1. git add - to add data to staging area
+    2. git commit - to add data to local repo from staging area
+    3. git push - to push data to github
+
+    local storage ---> staging area --------> local repo -----------> remote repo
+                    git add         git commit          git push
+    
+    clone
+    ------
+    git clone url
+
+    pull 
+    -------
+    git pull url
+
+    git commands
+    -------------
+    git init - to initialize git
+    git status - to check the status of the file
+    git add filename/ git add .(to add all files together) - to track files.
+    git commit -m "first commit" - to add and save files in local repository.

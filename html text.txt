@@ -1,0 +1,101 @@
+web applications
+--------------------------
+
+to connect a large mass of people.
+mer(a)n - mongoDb express react angular nodeJs.
+full stack - frontend + backend.
+frontend = ui(react and angular)
+backend
+
+markup languages are tag based language
+
+tags -- opening tags and closing tags.
+
+wifi - space_bar
+
+day 2
+------------------
+
+Tags in html
+ html 5 - new version - language specified, character set, meta data, zoom size ,doc type
+
+to load html 5 --> ! or type html
+
+h1 tag
+p tag
+a tag -> to create link:
+		attribute - it provides additional to a given tag
+		a tags attribute is href
+img tag -  attributes -> alternative, src
+
+block line element -- starts form new line
+inline element - starts in same line
+
+its possible to make inline elements to block level elements
+self closing tags
+sematic tags  - used to make website more optimized.
+eg - header tag, footer tag, aside tag, main tag
+
+update of html 5:
+	vedio tag
+	
+
+day 3
+--------------
+ 
+figure Tags
+audio tag
+maps(iframe tag)
+you tube
+list
+------
+ordered list
+unordered list 
+  - ol type='i'
+
+task --  formatting tags
+
+day 4
+-------------
+-------------
+ 
+ task
+ ----------
+ strong
+ bold
+ sub tag
+
+
+Tables
+----------
+ thead -> create heading
+ tr -> create row
+tbody
+td 
+
+forms
+---------
+input -- to get data from user
+label -- providing labels to input tag
+
+input tags have diff types attributes
+1. text
+2. password
+3. email
+4. date
+5. file
+6. number ( can set the range --> min="" max = "")
+7. checkbox
+8. radio (name tag for only selecting one radio button)
+9. textarea
+10. dropdown - label
+					select tag	
+						option tag
+						value hold data to backend
+11. button tag
+
+
+
+		
+
+

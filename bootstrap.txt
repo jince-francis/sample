@@ -1,0 +1,90 @@
+                                            Bootstrap
+                                            ---------
+
+ - Most popular framework of html,css and js 
+ - can access to our application in two different ways
+            1. using cdns (if cdn website crashes, our website crashes)
+            2. downloading bootstrap
+ - it provides predefined classes and predefined components
+ - these components can be customized
+ features
+ ---------
+    - predefined classes
+    - prestyled components
+    - these componentscan be customized
+    - responsive web application using grid system
+    - javascript plugins for interactive features
+
+        classes
+        --------
+        1. container - provide margins at left and right ends
+        2. container-fluid = to get the full width of screen
+        3. colors - primary(blue)
+                    success(green)
+                    danger(red)
+                    warning(orange)
+                    light(white)
+                    dark(black)
+                    info(light blue)
+                    secondary(grey)
+        4. borders (1-5 values) - to provide borders. its values ranges from 1 to 5.
+                    rounded = to give border-radius
+        5. m class = to provide margins. its values ranges from 1 to 5.
+                    -mt = margintop
+                    -mb = marginbottom
+                    -ms = marginstart(left)
+                    -me = marinend(right)
+                    -mx = left and right
+                    -my = top and bottom
+        6.p class = to provide padding.
+                    -pt = paddingtop
+                    -pb = paddingbottom
+                    -ps = paddingstart(left)
+                    -pe = paddingend(right)
+                    -px = left and right
+        7. btn class = to style button
+        8. w class = to provide width. has 4 values which is multiple of 25
+        9. fs = to provide font-size. 1-5 values. largest value==1
+
+        prestyled components
+        ---------------------
+
+
+home-work
+------------
+arcodian
+modal
+navbar
+off canvas
+
+        -carousels
+
+
+        grid system in bootstrap
+        --------------------------
+        row , col
+        row must be always the parent- it creates 12 column by default
+
+02-09-2024
+=============
+
+making responsive elements
+
+xs
+<576px          .col-
+
+sm
+≥576px          .col-sm-
+
+md
+≥768px          .col-md-
+
+lg
+≥992px          .col-lg-
+
+xl
+≥1200px         .col-xl-
+
+class = text-center === to justify:center (bootstrap)
+
+travel website == assignment   date == 18th

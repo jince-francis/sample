@@ -1,0 +1,294 @@
+                                                                    
+                                                                CSS
+                                                            ------------
+                                                    
+to provide styles to html tags
+
+types of css files
+-- inline
+        using style attribute along with html tags
+-- external
+        -- create external file with .css extension
+        -- reduces complexity and loading time
+        loading time = external>internal>inline
+-- internal
+        style tag in head component
+        -- syntax -- selector(
+                property : value;
+                 )
+        -- diff kind of selectors
+                tag line selector
+
+
+priority == inline>internal>external
+
+selectors
+------------
+1. tagline selector
+2. id selector
+3. class selector 
+4. Universal selector == rep by *. 
+                         to style the entire document
+5.desentance selector ==
+                        eg - parent child{
+
+                        }
+                        .listItem a{
+                                
+                        }
+
+css box model
+--------------
+1. border - line around box(invisible by default)
+2. margin - gap b/w border and element / outer space
+3. padding - gap b/w border and content
+
+border - property -border -width,type,color
+ types of border
+ ------------------
+ 1.solid
+ 2.dotted
+ 3.dashed
+ 4.double
+ 5.groove
+ 6.ridge
+ 7.inset
+ 8.outset
+
+ margin
+ ---------
+ margin top ,right, bottom, left
+ clock-wise order
+
+div tag - to create divisions in webpage.
+
+
+21-8-24
+==============
+
+float left -- to display div side by side
+float right -- to display div to right side
+
+units
+------
+pixel - basic size.
+percentage - always relates to parent tag.
+vh
+fraction
+-----------------------------------------------
+
+=background image - to put pics in background
+background-image: url("path");
+
+=background-repeat : to remove repeatation
+background-repeat: no repeat;
+
+background-size: cover = to cover the image to given size
+
+background-size: contain = to contain the full image
+
+background-position: top ; = to view top portion of image
+                     bottom
+                     center
+
+background-attachment: fixed; = to scroll the content through image
+
+opacity: .5; to blur the image
+
+border-radius = to make borders curved
+
+22-08-2024
+===============
+
+span tag = to style a content inside a tag
+        eg -- <p> hello <span>hehehheh<span /><p/>
+
+text-align: center; == to set the text to center
+
+font-size
+
+font-family == to set fonts
+
+favorate icons = to place logo near text in windows
+
+cdn = content delivery network. == to take contents from websites
+        eg -  cdn of font awesome
+
+fa-5x along with family of icon to further increase size of icon
+
+units
+-------
+viewport height
+
+for - used to connect label and input tags (vh)
+	  100vh == height of full lenght of screen of the device used
+	           size of screen viewed without scrolling
+
+position: relative = position related to its normal position
+		  absolute = related to parent tag which have position relative property
+
+
+display: flex = to convert children to inline(works like float)
+
+justify-content: space between;
+
+align-item : center; == to place a content vertically at center
+
+display: inline-block; maintains the space.( like float )
+
+desentance selector ==
+                        eg - parent child{
+
+                        }
+                        .listItem a{
+
+                        }
+text decoration
+list-style: none; == to remove dot in ul tag.
+
+23-08-2024
+===========
+
+font-weight: 900;  to make bolder
+
+psudo-class == it defines a special state of an element.
+                eg = hover,active,link,visited...etc
+
+syntax == selector:psudo-class{
+        property:value
+        }
+
+psudo-element == allows to style certain parts of an element.
+                represented by ::
+                symbol (::)
+                eg - after, before, first-letter, first-line,marker,selection...etc
+                syntax  == selector::psudo-element{
+                        property:value
+                }
+                        p::first-letter{
+                            font-size: 20px;
+                               font-weight: 900;
+                          }
+
+download == this attribute instructs browsers to download a URL instead of navigating to it
+
+transform: translateX(400)
+           translateY()
+           rotateX(45deg)
+           rotateY()
+           scale(1.5)
+
+26-08-2024
+=============
+
+transition -- 
+                eg -     transition: bottom 1s, left 2s;
+
+css grid system
+---------------
+- coloums and rows
+- diplay: grid
+to create coloums == grid-template - coloums
+to create rows == grid-template - rows
+
+-column-gap: 10px; == to create gap between coloums
+-row-gap: 10px; == to create gap between rows
+
+gap :10px; == to create gap in both rows and columns
+
+grid-template-columns: repeat(2,400px);
+        - repeat == to repeat the values
+
+new unit == fraction (fr)  == divides ur screen into fractions
+
+27-08-2024
+===========
+
+new unit == 3rem ==> related to font size of root element. 1rem = 16px(default)
+
+text-align:justify; = to justify text
+
+
+28-08-2024
+=============
+
+linear - gradient == to provide color combinations
+background-image: linear-gradient(to-direction,color1,color2,....color n)
+
+css animations
+----------------
+syntax : selector{
+        animation:aname, time
+}
+then define animation :-
+
+@keyframes aname{
+        0%{
+                property:value
+        }
+        .
+        .
+        .
+        100%{
+                property: value
+        }
+}
+
+group selector = #selector1,#selector2{
+                property: value
+                }
+
+scroll behaviour
+given to html tag
+
+29-08-2024
+===========
+
+media query
+------------
+-used to provide different styles to an element in different media/devices
+        syntax
+        -------
+        @media(expression){
+                selector{
+                        property:value;
+                }
+        }
+                                   Devices breakpoints
+                        ------------------------------------------
+                        /* Extra small devices (phones, 600px and down) */
+                        @media only screen and (max-width: 600px) {...}
+
+                        /* Small devices (portrait tablets and large phones, 600px and up) */
+                        @media only screen and (min-width: 600px) {...}
+
+                        /* Medium devices (landscape tablets, 768px and up) */
+                        @media only screen and (min-width: 768px) {...}
+
+                        /* Large devices (laptops/desktops, 992px and up) */
+                        @media only screen and (min-width: 992px) {...}
+
+                        /* Extra large devices (large laptops and desktops, 1200px and up) */
+                        @media only screen and (min-width: 1200px) {...}
+
+display:none -- element no loaded into browsers
+visibility: hidden -- element is hidden in browser.
+
+z-index
+----------
+ - it represents stack order of elements in html
+ - elements with higher z-index will be placed on the top of stack
+ - only applicable to elemets having position property
+ - if the elements is having same index value, the last written will be in the top.
+
+ css variables
+ --------------
+
+ -variables are used to store data
+ -represented by "--variablename"
+ -based on the scope of variables, it can be divided into two
+        -global variables - can be used throuhout the program.
+                selector - :root{}
+        -local variables - access is limited.(block level)
+
+        to access variable we need to call "var" predefined method
